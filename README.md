@@ -1,6 +1,6 @@
 # Pet-Friendly City Campaign Website
 
-A stylish and responsive website for the 'Pet-Friendly City' campaign, designed to promote volunteer participation in making cities more pet-inclusive.
+
 
 ## Features
 
