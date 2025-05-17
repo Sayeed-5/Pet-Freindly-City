@@ -1,1 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pet-Friendly City | Making Cities Paw-some!</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation Menu -->
+    <nav class="navbar">
+        <div class="logo">
+            <span>Pet-Friendly City <i class="fas fa-paw"></i></span>
+        </div>
+        <ul class="nav-links">
+            <li><a href="#hero">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#volunteer">Volunteer</a></li>
+            <li><a href="#impact">Impact Stories</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+        <div class="burger">
+            <div class="line1"></div>
+            <div class="line2"></div>
+            <div class="line3"></div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="hero" class="hero">
+        <div class="hero-content">
+            <h1>Making Cities Paw-some! <span class="emoji">🐾</span></h1>
+            <p>Join our community of pet lovers creating inclusive, safe spaces for our furry friends in urban environments.</p>
+            <div class="cta-buttons">
+                <a href="https://docs.google.com/forms/d/e/1FAIpQLSdXI3a_znXzKJvTgpcj_Zse-1kvaWM5hQDgD6pK0cexbDiamg/viewform" target="_blank" class="btn primary">Join the Movement <i class="fas fa-paw"></i></a>
+                <a href="#volunteer" class="btn secondary">Volunteer Now</a>
+                <a href="#about" class="btn tertiary">Learn More</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about-section">
+        <div class="container-fluid p-0 pt-5 pb-5 " id="events">
+            <div class="text-center services-main-heading">CollegeTips.in:
+                India's Coolest Startup</div>
+            <div class="text-center pt-4 services-main-title1">We are India's fastest growing Start-up aiming to make students' life Easy and Happening. So far we've reached and influenced the lives of more than 25 lakh students from 4000+ colleges in 1200+ cities with the help of 200+ members working as a team.    
+            </div>
+            <div class="text-center pt-4 services-main-title">"Our aim is to make every city in India Pet-Friendly"&#10084;&#65039;    
+            </div>
+            <div class="text-center services-main-heading">How We Do it?</div>
+            <div class="row services">
+                <div class="col-12 col-md-3 p-0 px-3 what-we-do-container">
+                    <div class="services-image-box"><img src="images/1.webp" class="services-image"></div>
+                    <a href="#"><div class="services-heading">Awareness Drive</div></a>
+                    <div class="services-description">Through educational programs, seminars, and workshops, we aim to promote responsible animal ownership and raise awareness about stray animal welfare.
+                    </div>
+                </div>        
+                <div class="col-12 col-md-3 p-0 px-3 what-we-do-container">
+                    <div class="services-image-box"><img src="images/2.webp" class="services-image"></div>
+                    <a href="#"><div class="services-heading">Public Policy Shift</div></a>
+                    <div class="services-description">Advocating for policy change with the help of bureaucrats, government officials, Public Representative, and Policymaker to ensure better protection and care for all animals.</div>
+                </div>        
+                <div class="col-12 col-md-3 p-0 px-3 what-we-do-container">
+                    <div class="services-image-box"><img src="images/3.webp" class="services-image"></div>
+                    <a href="#"><div class="services-heading">Joint Efforts</div></a>
+                    <div class="services-description">Our joint efforts include adoption drives, vaccination camps, and public awareness programs to build a animal friendly city with the help of NGOs and different organisation.</div>
+                </div>
+                <div class="col-12 col-md-3 p-0 px-3 what-we-do-container">
+                    <div class="services-image-box"><img src="images/4.webp" class="services-image"></div>
+                    <a href="#"><div class="services-heading">Providing Resources</div></a>
+                    <div class="services-description">Providing essential resources for animals, ensuring their well-being and safety. From food and shelter to medical care, we strive to support stray and rescued animals.</div>
+                </div>                    
+            </div>
+            <div class="text-center pb-5">  <a href="https://forms.gle/VR7XGbKkH77epp4N9" target="_blank">
+                <div class="btn btn-default rounded-pill services-more-services-button">Join Our Mission</div></a>
+            </div>                  
+        </div>
+    </section>
+
+    <!-- Volunteer Form Section -->
+    <section id="volunteer" class="volunteer-section">
+        <div class="container">
+            <h2>Become a Volunteer <span class="emoji">🐶</span></h2>
+            <p>Help us make a difference in your community by volunteering your time and skills.</p>
+            
+            <form class="volunteer-form">
+                <div class="form-group">
+                    <label for="fullName">Full Name</label>
+                    <input type="text" id="fullName" placeholder="Your name" required>
+                </div>
+                
+                <div class="form-group">
+                    <label for="city">City</label>
+                    <input type="text" id="city" placeholder="Your city" required>
+                </div>
+                
+                <div class="form-group">
+                    <label for="role">Role Preference</label>
+                    <select id="role" required>
+                        <option value="" disabled selected>Select your role</option>
+                        <option value="organizer">Organizer</option>
+                        <option value="supporter">Supporter</option>
+                        <option value="content">Content Creator</option>
+                        <option value="event">Event Coordinator</option>
+                        <option value="other">Other</option>
+                    </select>
+                </div>
+                
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" placeholder="Your email" required>
+                </div>
+                
+                <button type="submit" class="btn submit-btn">Submit <i class="fas fa-paper-plane"></i></button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Impact Stories Section -->
+    <section id="impact" class="impact-section">
+        <div class="container">
+            <h2>Real Tails of Impact <span class="emoji">🐱</span></h2>
+            <p>See how our volunteers and their pets are making cities more pet-friendly.</p>
+            
+            <div class="story-cards">
+                <div class="story-card">
+                    <div class="card-img">
+                        <img src="https://images.unsplash.com/photo-1601758177266-bc599de87707?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8ZG9nJTIwcGFya3xlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60" alt="Dog Park">
+                    </div>
+                    <div class="card-content">
+                        <h3>Max & Sarah <span class="emoji">🐕</span></h3>
+                        <p>"Thanks to the new dog park in our neighborhood, Max has made so many new friends. The community has never been more connected!"</p>
+                    </div>
+                </div>
+                
+                <div class="story-card">
+                    <div class="card-img">
+                        <img src="https://images.unsplash.com/photo-1548199973-03cce0bbc87b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8ZG9ncyUyMHdhbGt8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=500&q=60" alt="Dog Walk">
+                    </div>
+                    <div class="card-content">
+                        <h3>Bella & Mike <span class="emoji">🐩</span></h3>
+                        <p>"The new pet-friendly walking paths have transformed our daily routine. We've met so many wonderful people and pets along the way!"</p>
+                    </div>
+                </div>
+                
+                <div class="story-card">
+                    <div class="card-img">
+                        <img src="https://images.unsplash.com/photo-1541888946425-d81bb19240f5?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fGNhdCUyMGNhZmV8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=500&q=60" alt="Cat Cafe">
+                    </div>
+                    <div class="card-content">
+                        <h3>Whiskers & Lisa <span class="emoji">🐈</span></h3>
+                        <p>"Our campaign to open a cat café in the downtown area was a huge success! Now, even apartment dwellers can enjoy feline companionship."</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Pet Adoption Carousel -->
+    <section class="adoption-section">
+        <div class="container">
+            <h2>Find Your Furry Friend <span class="emoji">🐾</span></h2>
+            <p>These adorable pets are looking for their forever homes.</p>
+            
+            <div class="carousel-container">
+                <div class="carousel">
+                    <div class="carousel-item">
+                        <img src="https://images.unsplash.com/photo-1543466835-00a7907e9de1?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8ZG9nfGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60" alt="Buddy">
+                        <h3>Buddy</h3>
+                        <p>Golden Retriever, 2 years</p>
+                        <p class="fun-fact">"Loves to play fetch and give high-fives!"</p>
+                    </div>
+                    
+                    <div class="carousel-item">
+                        <img src="https://images.unsplash.com/photo-1573865526739-10659fec78a5?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8Y2F0fGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60" alt="Luna">
+                        <h3>Luna</h3>
+                        <p>Tabby Cat, 1 year</p>
+                        <p class="fun-fact">"Purrs like a motor when she's happy!"</p>
+                    </div>
+                    
+                    <div class="carousel-item">
+                        <img src="https://images.unsplash.com/photo-1583511655857-d19b40a7a54e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTd8fGRvZ3xlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60" alt="Rocky">
+                        <h3>Rocky</h3>
+                        <p>Husky Mix, 3 years</p>
+                        <p class="fun-fact">"Can howl on command and loves snow!"</p>
+                    </div>
+                    
+                    <div class="carousel-item">
+                        <img src="https://images.unsplash.com/photo-1533738363-b7f9aef128ce?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8Y2F0fGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60" alt="Mittens">
+                        <h3>Mittens</h3>
+                        <p>Calico Cat, 2 years</p>
+                        <p class="fun-fact">"Has perfect white 'mittens' on all paws!"</p>
+                    </div>
+                </div>
+                <button class="carousel-btn prev"><i class="fas fa-chevron-left"></i></button>
+                <button class="carousel-btn next"><i class="fas fa-chevron-right"></i></button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Form Section -->
+    <section id="contact" class="volunteer-section">
+        <div class="container">
+            <h2>Contact Us <span class="emoji">🐶</span></h2>
+            <p>Feel free to message anything to us.</p>
+            
+            <form class="volunteer-form">
+                <div class="form-group">
+                    <label for="fullName">Full Name</label>
+                    <input type="text" id="fullName" placeholder="Your name" required>
+                </div>
+                
+                <div class="form-group">
+                    <label for="city">City</label>
+                    <input type="text" id="city" placeholder="Your city" required>
+                </div>
+                
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" placeholder="Your email" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="msg">Message</label>
+                    <input type="text" id="msg" placeholder="Your message" required>
+                </div>
+                
+                <button type="submit" class="btn submit-btn">Send Us <i class="fas fa-paper-plane"></i></button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <h3>Pet-Friendly City <i class="fas fa-paw"></i></h3>
+                    <p>Making our cities better for pets and people.</p>
+                </div>
+                <div class="footer-links">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="#hero">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#volunteer">Volunteer</a></li>
+                        <li><a href="#impact">Impact Stories</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-social">
+                    <h4>Connect With Us</h4>
+                    <div class="social-icons">
+                        <a href="https://www.facebook.com/collegetips.in/"><i class="fab fa-facebook"></i></a>
+                        <a href="https://x.com/CollegeTips_in"><i class="fab fa-twitter"></i></a>
+                        <a href="https://www.instagram.com/collegetips.in/"><i class="fab fa-instagram"></i></a>
+                        <a href="https://www.youtube.com/@CollegeTips/videos"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Pet-Friendly City. All rights reserved| Developed by <a href="https://www.linkedin.com/in/sayed-ahemmad-72baa5274/">Sayed Ahemmad</a></p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
+
 
