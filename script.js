@@ -37,9 +37,9 @@ document.addEventListener('DOMContentLoaded', function() {
     }
     
     window.addEventListener('scroll', checkCards);
-    checkCards(); // Check on initial load
+    checkCards(); 
     
-    // Pet Adoption Carousel
+    
     const carousel = document.querySelector('.carousel');
     const prevBtn = document.querySelector('.prev');
     const nextBtn = document.querySelector('.next');
