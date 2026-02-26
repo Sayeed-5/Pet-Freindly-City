@@ -1,4 +1,4 @@
-/* Base Styles */
+
 :root {
     --primary-color: #ff6b6b;
     --secondary-color: #4ecdc4;
@@ -90,7 +90,7 @@ section {
     }
 }
 
-/* Button Styles */
+
 .btn {
     display: inline-block;
     padding: 0.8rem 1.5rem;
