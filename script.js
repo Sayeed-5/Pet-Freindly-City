@@ -1,14 +1,14 @@
 document.addEventListener('DOMContentLoaded', function() {
-    // Mobile Navigation Toggle
+    
     const burger = document.querySelector('.burger');
     const nav = document.querySelector('.nav-links');
     const navLinks = document.querySelectorAll('.nav-links li');
     
     burger.addEventListener('click', function() {
-        // Toggle Nav
+        
         nav.classList.toggle('nav-active');
         
-        // Animate Links
+        
         navLinks.forEach((link, index) => {
             if (link.style.animation) {
                 link.style.animation = '';
